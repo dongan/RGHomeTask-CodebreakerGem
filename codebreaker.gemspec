@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Codebreaker::VERSION
   spec.authors       = ["Denis Dvoryashin"]
   spec.email         = ["don1988gan@mail.ru"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{code-breaker console game}
+  spec.description   = %q{programm generates secret code and user must guess it}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-collection_matchers"
 end
