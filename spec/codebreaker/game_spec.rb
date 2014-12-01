@@ -2,7 +2,7 @@ require 'spec_helper'
 
 module Codebreaker
   describe Game do
-  	let(:game) {Game.new}
+  	let(:game) { Game.new }
 
   	before do
       game.start
@@ -76,7 +76,7 @@ module Codebreaker
   	  end
   	  
   	  it "returns correct output string if user guessed" do
-		game.instance_variable_set(:@secret_code,"1234")
+		    game.instance_variable_set(:@secret_code,"1234")
   	  	result_string1 = game.try_number("5278")
   	  	result_string2 = game.try_number("5618")
   	  	result_string3 = game.try_number("4638")
@@ -97,11 +97,11 @@ module Codebreaker
 
   	context "#save_user_data_to" do
   	  it "saves user results to file" do	
-  	    game.try_number("2222")
+  	  game.try_number("2222")
   		game.try_number("2223")
 
   		OldFile = File 
-  		File = double
+  		File = double 
   		file = double
   		
   		expect(file).to receive(:puts).with("--- !ruby/object:User\nturns: 2\nname: noname\n")
