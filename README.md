@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Codebreaker
 
 TODO: Write a gem description
@@ -29,3 +30,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+=======
+RGHomeTask-CodebreakerGem
+=========================
+>>>>>>> a66962c92ae5de6d075bb72a0cd2d655c2bd2279
